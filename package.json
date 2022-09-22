@@ -1,5 +1,5 @@
 {
-  "name": "mvc-tech-blog",
+  "name": "tech-blog",
   "version": "1.0.0",
   "description": "Model-View-Controller (MVC) Tech Blog",
   "main": "server.js",
@@ -11,28 +11,29 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jpd61/mvc-tech-blog.git"
+    "url": "git+https://github.com/JacksonPetz/Tech-Blog.git"
   },
   "author": "Joseph DeWoody",
-  "license": "ISC",
+  "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/jpd61/mvc-tech-blog/issues"
+    "url": "https://github.com/JacksonPetz/Tech-Blog/issues"
   },
-  "homepage": "https://github.com/jpd61/mvc-tech-blog#readme",
+  "homepage": "https://github.com/JacksonPetz/Tech-Blog/blob/main/README.md",
   "dependencies": {
-    "bcrypt": "^5.0.0",
+    "bcrypt": "^5.0.1",
     "bulma": "^0.9.0",
     "connect-session-sequelize": "^6.1.1",
-    "dotenv": "^8.2.0",
+    "dotenv": "^8.6.0",
     "express": "^4.17.1",
-    "express-handlebars": "^4.0.4",
-    "express-session": "^1.17.1",
-    "mysql2": "^2.1.0",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
     "nodemon": "^2.0.4",
-    "sequelize": "^5.21.13"
+    "sequelize": "^5.22.5"
   },
   "devDependencies": {
     "@creativebulma/bulma-divider": "^1.1.0",
-    "jest": "^26.0.1"
+    "jest": "^26.6.3"
   }
 }
